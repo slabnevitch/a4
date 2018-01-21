@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Отдельный проект</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="header-logo"><img src="img/icons/logo-small.png" alt="alt">
+            <div class="header-logo__text">дизайн<br>и полиграфия</div>
+          </div>
+          <nav>
+            <ul class="menu">
+              <li class="menu__item"><a href="#" class="menu__link">работы</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">команда</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">контакты</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Требования к макетам</a></li>
+            </ul>
+          </nav><a href="#" class="toggle-mnu"><span></span></a><a href="#" data-tooltip-content="#tooltip_content" class="button-whith-plus tooltip">Заказать просчет<span class="button-whith-plus__icon"></span></a><a href="tel:" class="header-phone">+38 099 999 9999</a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li class="active"><a href="#">Колбаса "Панська"</a></li>
+      </ul>
+    </div>
+    <section class="product-preview section-ordinary">
+      <div class="container">
+        <h3>Колбаса “Панська”</h3>
+      </div>
+      <div class="container product-slider-wrap">
+        <div id="product-car" class="product-slider owl-carousel"><img src="img/slider1.jpg" alt="alt"><img src="img/slider1.jpg" alt="alt"></div>
+      </div>
+    </section>
+    <section class="steps section-ordinary">
+      <div class="container">
+        <h3>Этапы работы</h3>
+      </div>
+      <div class="container-resp">
+        <div style="background-image: url(img/stage-1.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">1 этап</div>
+            <div class="portfolio-item__client">Съемка продукта для дальнейшей работы</div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+        <div style="background-image: url(img/stage-2.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">2 этап</div>
+            <div class="portfolio-item__client">Что-то еще сделали </div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+        <div style="background-image: url(img/stage-3.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">3 этап</div>
+            <div class="portfolio-item__client">Получение обратной связи от заказчика. Правки</div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+        <div style="background-image: url(img/stage-4.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">4 этап</div>
+            <div class="portfolio-item__client">Что-то еще сделали</div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+        <div style="background-image: url(img/stage-5.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">5 этап</div>
+            <div class="portfolio-item__client">Предварительная печат. Печать</div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+        <div style="background-image: url(img/stage-6.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">6 этап</div>
+            <div class="portfolio-item__client">Обратная связь от заказчика</div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+        <div style="background-image: url(img/stage-7.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">7 этап</div>
+            <div class="portfolio-item__client">Печать этикеток</div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+        <div style="background-image: url(img/stage-8.jpg)" class="portfolio-item">
+          <div class="portfolio-item__cont">
+            <div class="portfolio-item__title">8 этап</div>
+            <div class="portfolio-item__client">Фотография этикеток на колбасе</div>
+          </div>
+          <div class="portfolio-item__cover"></div>
+        </div>
+      </div>
+    </section>
+    <section class="order section-ordinary">
+      <div class="container">
+        <h3>Сделать заказ</h3>
+        <p>Оставьте заявку и мы свяжемся с Вами, чтоб обсудить проект.</p>
+      </div>
+      <div class="container">
+        <form action="#" method="GET" class="my-form order-form">
+          <label class="my-form__label">
+            <input type="text" name="name" placeholder="Ваше имя" title="введите ваше имя" required class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <input type="phone" name="phone" placeholder="Ваш телефон" title="введите ваш телефон" required class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <input type="email" name="email" placeholder="Ваш email" title="введите вашу эл. почту" required class="my-form__input">
+          </label>
+          <button type="submit" class="my-form__submit button">Расчитать стоимость</button>
+        </form>
+      </div>
+    </section>
+    <footer class="section-half">
+      <div class="footer-top">
+        <div class="container">
+          <div class="section-left">
+            <h2 class="section-title">контакты</h2>
+            <div class="footer-contacts">
+              <div class="footer-logo"><img src="img/logo-big.png" alt="alt">
+                <div>дизайн<br>и полиграфия</div>
+              </div>
+              <table>
+                <tr>
+                  <td>Email:</td>
+                  <td>info@a4plus.com.ua</td>
+                </tr>
+                <tr>
+                  <td>Телефон:</td>
+                  <td>+38 (095) 050 50 05</td>
+                </tr>
+                <tr>
+                  <td>Адрес:</td>
+                  <td>г. Харьков, пл. Свободы 7, офис 323</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="footer-map" class="section-right"></div>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-copyright">Все права защищены. А4 плюс 2017</div>
+        <div class="footer-dev">Разработка сайта: студия Freemind</div>
+      </div>
+    </div>
+    <div class="tooltip_templates">
+      <div id="tooltip_content">
+        <form action="#" method="GET" class="my-form tooltip-form">
+          <h3>Заказать просчет</h3>
+          <div>
+            Оставьте заявку и мы свяжемся с Вами,
+            чтоб обсудить проект.
+          </div>
+          <label class="my-form__label">
+            <input type="text" name="name" placeholder="Ваше имя" title="введите ваше имя" class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <input type="phone" name="phone" placeholder="Ваш телефон" title="введите ваш телефон" class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <input type="email" name="email" placeholder="Ваш email" title="введите вашу эл. почту" class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <!-- <input type="email" class="my-form__input" name="email" placeholder="Ваш email" title="введите вашу эл. почту"/>-->
+            <textarea id="order-text" name="text" placeholder="Напишите, что Вы хотите напечатать"></textarea>
+          </label>
+          <button type="submit" class="my-form__submit button">Расчитать стоимость</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_NAmCu9dm16a9i0oeX0T6rBQFgObeiZA&amp;callback=initMap" async defer></script>
+  </body>
+</html>

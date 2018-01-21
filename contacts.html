@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Контакты</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,800">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="contacts">
+      <div id="contacts-map" class="contacts-map"></div>
+      <header class="header">
+        <div class="header-top">
+          <div class="container">
+            <div class="header-logo"><img src="img/icons/logo-small.png" alt="alt">
+              <div class="header-logo__text">дизайн<br>и полиграфия</div>
+            </div>
+            <nav>
+              <ul class="menu">
+                <li class="menu__item"><a href="#" class="menu__link">работы</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">команда</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">контакты</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Требования к макетам</a></li>
+              </ul>
+            </nav><a href="#" class="toggle-mnu"><span></span></a><a href="#" data-tooltip-content="#tooltip_content" class="button-whith-plus tooltip">Заказать просчет<span class="button-whith-plus__icon"></span></a><a href="tel:" class="header-phone">+38 099 999 9999</a>
+          </div>
+        </div>
+        <div class="contacts-top">
+          <h3>Контакты</h3>
+        </div>
+      </header>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-copyright">Все права защищены. А4 плюс 2017</div>
+          <div class="footer-dev">Разработка сайта: студия Freemind</div>
+          <div class="contact-info">
+            <div class="contact-info__block">
+              <div class="contact-info__title">Email:</div>
+              <div class="contact-info__cont">info@a4plus.com.ua</div>
+            </div>
+            <div class="contact-info__block">
+              <div class="contact-info__title">Телефон:</div>
+              <div class="contact-info__cont">+38 (095) 050 50 05</div>
+            </div>
+            <div class="contact-info__block">
+              <div class="contact-info__title">Адрес:</div>
+              <div class="contact-info__cont">Svobody Square, 5/1, Kharkiv, Kharkiv Oblast, Ukraine</div>
+            </div>
+            <div class="contact-info__block">
+              <div class="contact-info__title">Режим работы:</div>
+              <div class="contact-info__cont">Пн - Пт: с 10:00 до 18:00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tooltip_templates">
+      <div id="tooltip_content">
+        <form action="#" method="GET" class="my-form tooltip-form">
+          <h3>Заказать просчет</h3>
+          <div>
+            Оставьте заявку и мы свяжемся с Вами,
+            чтоб обсудить проект.
+          </div>
+          <label class="my-form__label">
+            <input type="text" name="name" placeholder="Ваше имя" title="введите ваше имя" class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <input type="phone" name="phone" placeholder="Ваш телефон" title="введите ваш телефон" class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <input type="email" name="email" placeholder="Ваш email" title="введите вашу эл. почту" class="my-form__input">
+          </label>
+          <label class="my-form__label">
+            <!-- <input type="email" class="my-form__input" name="email" placeholder="Ваш email" title="введите вашу эл. почту"/>-->
+            <textarea id="order-text" name="text" placeholder="Напишите, что Вы хотите напечатать"></textarea>
+          </label>
+          <button type="submit" class="my-form__submit button">Расчитать стоимость</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_NAmCu9dm16a9i0oeX0T6rBQFgObeiZA&amp;callback=initMap" async defer></script>
+  </body>
+</html>
