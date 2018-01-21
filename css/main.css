@@ -1853,7 +1853,7 @@ footer {
 .contact-info {
   position: absolute;
   margin-left: 75px;
-
+  left: 0;
   bottom: 100%;
   margin-bottom: 30px;
   max-width: 372px;
