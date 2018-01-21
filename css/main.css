@@ -1852,6 +1852,7 @@ footer {
   position: absolute;
   margin-left: 75px;
   bottom: 100%;
+  left: 0;
   margin-bottom: 30px;
   max-width: 372px;
   padding: 35px 50px;
